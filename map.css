@@ -1,0 +1,192 @@
+main{display:flex;flex-direction:row;background-color: #81C4D1;
+	flex-wrap: wrap;padding-top: 50px; }
+.holder{display:flex;min-width:350px;flex-direction: row;padding-bottom: 50px;}
+.compass {
+	width: 200px;
+	height: 300px;
+	border-radius: 10px;;
+	background-color: #F3F3F3;
+	/*border-radius: 100%;
+	background-image: -webkit-linear-gradient(top, #F7F7F7, #ECECEC);*/
+  	position: relative;  	
+  	/*transform: rotate(60deg);*/
+	margin:0 auto;
+}
+#widthtrans{display: flex;width: 330px;margin-top:40px;}
+#liner{background-color:#3D3D3D; width:2px; left: 49.5%;height:85%;
+	position: absolute;top:15%;}
+#boxer{background-color: aliceblue;width: 80px;text-align: center;
+	height:10%;position: absolute;top: 1%; left:30%;}
+.compass-inner {
+	width: 165px;
+	height: 165px;
+	background-color: #3D3D3D;
+	border-radius: 100%;
+	position: relative;
+	top:100px;
+	left:17.5px;
+	/*transform: rotate(-60deg);*/
+}
+
+.main-arrow {
+	height: 100%;
+	width: 15px;
+	left: 45%;
+  
+	position: relative;
+	padding-top: 2.5px;
+	box-sizing:border-box;
+  
+	/*animation: spin 2.0s alternate infinite;
+	-ms-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-o-animation: spin 2.0s alternate infinite;
+	-moz-transform: rotate(20deg);
+	-moz-animation: spin 2.0s alternate infinite;
+	-webkit-transform: rotate(20deg);
+	-webkit-animation: spin 2.0s alternate infinite;*/
+	
+}
+.hatch{position: absolute; width: 1px;background-color: aliceblue;
+	top:3%; left:43%;height:47%;}
+.hatchb{position: absolute; width: 1px;background-color: aliceblue;
+		top:3%; left:57%;height:47%;}
+.arrow-up {
+	width: 0; 
+	height: 0;
+	border-left: 7.5px solid transparent;
+	border-right: 7.5px solid transparent;
+	border-bottom: 82.5px solid #EF5052;
+	position: relative;
+}
+
+.arrow-down {
+	-webkit-transform: rotate(180deg); /* Safari and Chrome */
+	width: 0; 
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+	height: 0;
+	border-left: 7.5px solid transparent;
+	border-right: 7.5px solid transparent;
+	border-bottom: 82.5px solid #F3F3F3;
+	position: relative;
+}
+
+.north {
+	font-size: 18px;
+	font-family: 'Lobster Two', cursive;
+	color: #FFF;
+	position: absolute;
+	left: 77.5px;
+	top: 5px;
+	
+	
+}
+
+.east {
+	font-size: 18px;
+	font-family: 'Lobster Two', cursive;
+	color: #FFF;
+	position: absolute;
+	left: 145px;
+	top: 75px;
+}
+
+.west {
+	font-size: 18px;
+	font-family: 'Lobster Two', cursive;
+	color: #FFF;
+	position: absolute;
+	left: 10px;
+	top: 75px;
+}
+
+.south {
+	font-size: 18px;
+	font-family: 'Lobster Two', cursive;
+	color: #FFF;
+	position: absolute;
+	left: 77.5px;
+	top: 140px;
+}
+body{   display:flex;flex-direction: column; width: 98vw;align-items: center; 
+    margin:0; padding:0;background-color: #81C4D1; }
+main{display: flex; flex-direction: column; }
+h3{max-width:90%;background-color: blue;
+color:yellow; padding: 5px; margin-bottom:0;
+    border-radius: 10px;}
+ h4{background:maroon; color:yellow;
+}
+.fr560{ max-width: 800px;flex:1 1 70%; font-size: 1.5em;
+}
+/*.noting{flex: 1 1 30%;}*/
+.mapset{display: flex; flex-direction: row;font-size: larger;}
+.row{display: flex;flex-direction: row;flex-wrap: wrap;}
+.row p{margin: 5px;}
+.col{display: flex; flex-direction: column;margin: auto;
+    border:5px solid darkorchid;border-radius: 30px;
+    padding:10px;}
+.col800{ max-width:1000px;margin:  0 auto;
+    background-color: aliceblue;
+    border: yellow 3px solid; border-radius: 10px;padding: 2px;justify-items:center;}
+.col80{max-width:800px;background-color: aliceblue;font-size: larger;
+    border: yellow 4px solid; border-radius: 10px;padding: 2px;}
+.noting{flex: 1 1 30%;}
+.mapcol{ display: flex; flex-direction: column; width: 90%;        }
+/*HEIGHT HAD TO BE TAKEN OFF OF THE FLEX GETS OVERLAPPED ON THE 
+MAP*/
+#mapline{background-color: blue; 
+   width: 100%;height:100%;   }
+#pace1{ background-color: lightseagreen; flex: 1 1 80%; font-size: 2em;}
+#togf{position: absolute; left:34%; top:72%}   /*{position: relative;  left:25%;top:75%;padding: 0; }*/
+#toge{position: absolute; left:23%; top: 32%; }
+#togd{position: absolute; left:2%; top: 51%;}
+#togc{position: absolute; left:55%; top: 17%;}
+#togb{position:absolute; left:0%; top: 3%;}
+#toga{position: absolute; left:41%; top: 7%;padding: 0;}
+.a3{background-color: cornsilk;font-size: 0;display: inline-block;}
+.a1 {  background-color:red;        border-radius: 2px black solid;
+    width: 10px; height:10px;  margin-right: 0;
+    clip-path: ellipse(5px 5px at 50% 50%) }
+.a2{ font-size: 0;    }  
+/*.town{ background-color:cornsilk;width: 80px;height:25px;display: block;position:relative;}
+.town{font-size: 1em;}*/
+.townf {  font-size: 1em;background-color: cornsilk;
+    display: inline-block;}
+.b1{background-color: lawngreen; }
+#map1{font-size: 0.9em;}
+#map1 #a{position: absolute; margin:0; padding: 0;  left:45%; top: 0%; } 
+#map1 #b{ margin:0; padding: 0; position: absolute; left:30%; top:11%; }
+ #map1 #c{ margin:0; padding: 0; position: absolute; left:57%; top: 25%; }
+ #map1 #d{margin:0; padding: 0; position: absolute; left:2%; top: 47%; }
+ #map1 #e{margin: 0;padding: 0;  position: absolute; left:39%; top: 41%; }
+ #map1 #f{position: absolute; padding: 0;margin: 0 ;  left:44%; top:82%;}
+ 
+ 
+ 
+ #g{ position: relative;  top: 0;padding: 0; }   
+
+
+img { width: 100%;  height: 100%;}
+#map1{ background-color: burlywood;position: relative;
+    width: 500px;   height:400px;
+    /*float: left;*/
+    clip-path: polygon(0 0, 0 65%, 11% 66%, 16% 62%,
+    20% 65%,19% 71%,  20% 75%, 23% 72%, 25% 71%, 24% 70%,
+     23% 63%, 25% 55%, 28% 49%, 33% 44%,
+     38% 44%, 48% 50%, 35% 64%, 35% 67%, 
+     30% 74%, 33% 77%,30% 85%,  27% 88%, 28% 91%, 36% 93%,
+      37% 92%, 45% 84%, 
+     60% 78%, 70% 74%, 73% 52%, 82% 45%,92% 44%, 91% 42%,
+     75% 11%, 77% 6%, 76% 0 );
+    shape-outside: polygon(0 0, 0 65%, 11% 66%, 16% 62%,
+    20% 65%, 19% 71%,  20% 75%, 23% 72%, 25% 71%, 24% 70%,
+     23% 63%, 25% 55%, 28% 49%, 33% 44%, 
+     38% 44%, 48% 50%, 35% 64%, 35% 67%, 
+     30% 74%, 33% 77%,30% 85%,  27% 88%, 28% 91%, 36% 93%, 
+     37% 92%, 45% 
+     84%, 60% 78%,
+     70% 74%, 73% 52%, 82% 45%,92% 44%, 91% 42%,
+     75% 11%, 77% 6%, 76% 0 );
+        
+   }
