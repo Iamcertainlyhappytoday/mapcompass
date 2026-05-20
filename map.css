@@ -1,4 +1,6 @@
-main{display:flex;flex-direction:row;background-color: #81C4D1;
+body{   display:flex;flex-direction: column; width: 98vw;align-items: center; 
+    margin:0; padding:0;background-color: #81C4D1; }
+main{display:flex;flex-direction:row;
 	flex-wrap: wrap;padding-top: 50px; }
 .holder{display:flex;min-width:350px;flex-direction: row;padding-bottom: 50px;}
 .compass {
@@ -109,9 +111,8 @@ main{display:flex;flex-direction:row;background-color: #81C4D1;
 	left: 77.5px;
 	top: 140px;
 }
-body{   display:flex;flex-direction: column; width: 98vw;align-items: center; 
-    margin:0; padding:0;background-color: #81C4D1; }
-main{display: flex; flex-direction: column; }
+
+
 h3{max-width:90%;background-color: blue;
 color:yellow; padding: 5px; margin-bottom:0;
     border-radius: 10px;}
