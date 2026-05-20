@@ -2,23 +2,21 @@ let found= document.querySelectorAll('.a1');
 for ( let i=0; i<found.length; i++ ){ 
         found[i].addEventListener('click', selector);
         found[i].addEventListener('click', getlh); }
-document.querySelectorAll(".a3").setAttribute("class","townf");
+document.querySelectorAll(".a3");
 function selector(e){
     let townid=e.target.id;    
-    document.querySelectorAll(".a3").setAttribute("class","townf");
-
 switch(townid){   
-            case 'a':            document.getElementById("toga");
+            case 'a':            document.getElementById("toga").setAttribute("class","townf");
         break;
-            case 'b':                document.getElementById("togb");                 
+            case 'b':                document.getElementById("togb").setAttribute("class","townf");                 
             break;
-            case 'c':                document.getElementById("togc");                   
+            case 'c':                document.getElementById("togc").setAttribute("class","townf");                   
             break;
-            case 'd':                document.getElementById("togd");                   
+            case 'd':                document.getElementById("togd").setAttribute("class","townf");                   
             break;
-            case 'e':                document.getElementById("toge");                  
+            case 'e':                document.getElementById("toge").setAttribute("class","townf");                  
             break;
-            case 'f':             document.getElementById("togf");         
+            case 'f':             document.getElementById("togf").setAttribute("class","townf");         
             break;
             default: 
             found.classList='a1';
