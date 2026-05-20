@@ -6,17 +6,17 @@ document.querySelectorAll(".a3").setAttribute("class","townf");
 function selector(e){
     let townid=e.target.id;           
     switch(townid){   
-            case 'a':            document.getElementById("toga").setAttribute("class","townf");
+            case 'a':            document.getElementById("toga");
         break;
-            case 'b':                document.getElementById("togb").setAttribute("class","townf");                 
+            case 'b':                document.getElementById("togb");                 
             break;
-            case 'c':                document.getElementById("togc").setAttribute("class","townf");                   
+            case 'c':                document.getElementById("togc");                   
             break;
-            case 'd':                document.getElementById("togd").setAttribute("class","townf");                   
+            case 'd':                document.getElementById("togd");                   
             break;
-            case 'e':                document.getElementById("toge").setAttribute("class","townf");                  
+            case 'e':                document.getElementById("toge");                  
             break;
-            case 'f':             document.getElementById("togf").setAttribute("class","townf");         
+            case 'f':             document.getElementById("togf");         
             break;
             default: 
             found.classList='a1';
