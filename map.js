@@ -2,6 +2,7 @@ let found= document.querySelectorAll('.a1');
 for ( let i=0; i<found.length; i++ ){ 
         found[i].addEventListener('click', selector);
         found[i].addEventListener('click', getlh); }
+document.querySelectorAll(".a3").setAttribute("class","townf");
 function selector(e){
     let townid=e.target.id;           
     switch(townid){   
