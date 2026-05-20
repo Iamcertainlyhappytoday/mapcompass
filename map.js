@@ -5,7 +5,8 @@ for ( let i=0; i<found.length; i++ ){
 document.querySelectorAll(".a3").setAttribute("class","townf");
 function selector(e){
     let townid=e.target.id;           
-    switch(townid){   
+}
+switch(townid){   
             case 'a':            document.getElementById("toga");
         break;
             case 'b':                document.getElementById("togb");                 
@@ -20,7 +21,7 @@ function selector(e){
             break;
             default: 
             found.classList='a1';
-        } }; 
+        } ; 
 let newDirection=document.querySelector('.compass');
 let oldDirection=document.querySelector('.compass-inner');    
 let shower=document.querySelector('#boxer'); 
